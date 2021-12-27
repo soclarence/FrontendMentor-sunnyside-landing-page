@@ -1,0 +1,341 @@
+.header {
+  height: 100vh;
+  width: auto;
+  text-align: center;
+  background-image: url(../images/desktop/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -60px;
+  padding-top: 13%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-down {
+  width: 70px;
+  height: 170px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.header-txt {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 800;
+  color: white;
+  font-size: 4rem;
+  letter-spacing: 15px;
+}
+
+/* 2nd container */
+
+.image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image {
+  min-height: 103%;
+  min-width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.right-column {
+  padding: 12%;
+}
+
+.heading-txt {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+}
+
+.heading-text {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 800;
+  font-size: 2em;
+  text-align: left;
+}
+
+.body-txt {
+  font-size: 100%;
+  padding-top: 5%;
+}
+
+.info-btn {
+  border: solid;
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
+  border-width: 3px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 0px;
+  box-shadow: inset #fbd50100;
+  transition: ease-out 0.8s;
+  outline: none;
+}
+
+.info-btn:hover {
+  box-shadow: inset 300px 0 0 0 #fbd501;
+  cursor: pointer;
+  color: black;
+}
+
+/* graphics services */
+
+.graphics-srvc {
+  height: 90vh;
+  position: relative;
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graphics-srvc2 {
+  height: 90vh;
+  position: relative;
+  background-image: url(../images/desktop/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graphics {
+  text-align: center;
+  opacity: 80%;
+}
+
+.text-area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 95px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.text-area2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 95px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* client area styling */
+
+.client-area {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.client-container {
+  margin: auto;
+}
+
+.client-head {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  color: rgb(126, 126, 126);
+  letter-spacing: 5px;
+  padding-bottom: 150px;
+}
+
+.client-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 800;
+  font-size: 100%;
+}
+
+.client-title {
+  font-size: 70%;
+  font-weight: 600;
+  color: rgb(179, 179, 179);
+}
+
+.client-name {
+  margin-top: 40px;
+}
+
+/* 4 image area style */
+
+.img-container {
+  justify-items: center;
+  overflow: hidden;
+  min-width: 100vw;
+  overflow: hidden;
+}
+
+.image-area {
+  width: 118%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* footer styling */
+
+footer {
+  height: 30vh;
+  background-color: #90d4c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 100vw;
+}
+
+footer a {
+  text-decoration: inherit;
+  color: #2e7565;
+  font-weight: 700;
+  font-size: 80%;
+}
+
+.footer-menu a:hover {
+  color: white;
+}
+
+.footer-container {
+  margin: auto;
+}
+
+.social-media {
+  align-items: center;
+}
+
+.footer-logo {
+  color: #2e7565;
+  padding-bottom: 50px;
+}
+
+.attribution {
+  color: white;
+}
+
+.attribution a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.attribution a:hover {
+  color: gray;
+}
+
+/* Mobile version */
+@media all and (max-width: 600px) {
+  /* heading area */
+
+  .header {
+    margin-top: 0px;
+  }
+  .header-txt {
+    font-family: "Abril Fatface", cursive;
+    font-weight: 800;
+    color: white;
+    padding-top: 130px;
+    font-size: 3rem;
+    letter-spacing: 10px;
+  }
+
+  /* Service graphic area */
+
+  .text-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 95px;
+    padding-right: 50px;
+    padding-left: 50px;
+    overflow: hidden;
+  }
+
+  .text-area2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 95px;
+    padding-right: 50px;
+    padding-left: 50px;
+    overflow: hidden;
+  }
+
+  .parent-div {
+    text-align: center;
+  }
+
+  .heading-text {
+    text-align: center;
+  }
+
+  .body-txt {
+    text-align: center;
+  }
+
+  .info-btn {
+    text-align: center;
+  }
+
+  /* Client area */
+  .testimony {
+    padding: 0px 30px 70px 30px;
+  }
+  .client-head {
+    font-size: 13px;
+    padding-bottom: 50px;
+  }
+
+  .client-area {
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .client-container {
+    margin: auto;
+  }
+
+  footer {
+    height: 50vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .social-media {
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .footer-logo {
+    padding-bottom: 20px;
+  }
+
+  .attribution {
+    font-size: 13px;
+  }
+}

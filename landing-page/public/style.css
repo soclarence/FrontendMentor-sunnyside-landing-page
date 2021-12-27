@@ -1,0 +1,11 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+    image-resolution: 100%;
+}
+
+.whole-body{
+    overflow: hidden;
+}
